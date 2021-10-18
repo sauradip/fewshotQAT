@@ -1,3 +1,5 @@
-# Official Repository of "Few Shot Temporal Action Localization using Query Adaptive Transformer" accepted in BMVC,2021, Virtual
+# Few Shot Temporal Action Localization using Query Adaptive Transformer
 
-Code will be added soon
+Accepted in BMVC 2021.
+
+Code will be added soon ( delay due to CVPR workload )
