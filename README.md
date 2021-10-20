@@ -2,4 +2,6 @@
 
 Accepted in BMVC 2021.
 
-Code will be added soon ( delay due to CVPR workload )
+Appologize for the messed up Code
+
+Refactoring will be done soon ( delay due to CVPR workload )
