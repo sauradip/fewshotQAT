@@ -1,8 +1,8 @@
 # Few Shot Temporal Action Localization using Query Adaptive Transformer
 
-## Accepted as Poster in BMVC 2021
+**Accepted as Poster in BMVC 2021**
 
-This is an official implementation in PyTorch of FS-QAT. Our paper is available at [\[Arxiv\]](https://arxiv.org/abs/2110.10552)
+This is an official implementation in PyTorch of FS-QAT. Our paper is available at [Arxiv](https://arxiv.org/abs/2110.10552)
 
 ![](img/fig1.png)
 
