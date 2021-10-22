@@ -1,4 +1,4 @@
-# Few Shot Temporal Action Localization using Query Adaptive Transformer
+# FS-QAT: Few Shot Temporal Action Localization using Query Adaptive Transformer
 
 **Accepted as Poster in BMVC 2021**
 
