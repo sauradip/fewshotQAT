@@ -1,3 +1,6 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/few-shot-temporal-action-localization-with/few-shot-temporal-action-localization-on)](https://paperswithcode.com/sota/few-shot-temporal-action-localization-on?p=few-shot-temporal-action-localization-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/few-shot-temporal-action-localization-with/few-shot-temporal-action-localization-on-1)](https://paperswithcode.com/sota/few-shot-temporal-action-localization-on-1?p=few-shot-temporal-action-localization-with)
+
 # FS-QAT: Few Shot Temporal Action Localization using Query Adaptive Transformer
 
 **Accepted as Poster in BMVC 2021**
