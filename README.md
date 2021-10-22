@@ -19,6 +19,7 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 - Instead of meta-learning the entire network, only Transformer is meta-learned hence faster adaptation.
 - Intra-Class Variance is handled using this adaptation
 - Promising performance in Cross-Domain/Dataset settings.
+- Can localize Actions for a class having a minimum of just **1** annotated video
 
 ## Qualitative Performance
 
