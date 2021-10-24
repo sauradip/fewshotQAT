@@ -35,15 +35,15 @@ Appologize for the messed up Code
 
 Refactoring will be done soon ( delay due to CVPR workload )
 
-> To Train
+> To Train GTAD with base class split run this ( only needed once per dataset )
 
-```train GTAD with base class split run this ( only needed once per dataset )
+```train 
 python gtad_train_fs.py 
 ```
 
-> To Test
+> To Train on support split and Test on query split run this
 
-```train on support split and test on query split run this
+```test
 sh test_fs.sh
 ```
 
