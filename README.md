@@ -31,6 +31,22 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 
 ## Training and Evaluation
 
+Appologize for the messed up Code
+
+Refactoring will be done soon ( delay due to CVPR workload )
+
+> To Train
+
+```train GTAD with base class split run this ( only needed once per dataset )
+python gtad_train_fs.py 
+```
+
+> To Test
+
+```train on support split and test on query split run this
+sh test_fs.sh
+```
+
 ## Few Shot Split Setting 
 
 1. The Class Split is given as follows :
@@ -45,22 +61,8 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 * Testing Class ( Query ) --> 20 Class
 ```bash
 ['Hurling', ' Polishing forniture', ' BMX', ' Riding bumper cars', ' Starting a campfire', ' Walking the dog', ' Preparing salad', ' Plataform diving', ' Breakdancing', ' Camel ride', ' Hand car wash', ' Making an omelette', ' Shuffleboard', ' Calf roping', ' Shaving legs', ' Snatch', ' Cleaning sink', ' Rope skipping', ' Drinking coffee', ' Pole vault']
-
-Appologize for the messed up Code
-
-Refactoring will be done soon ( delay due to CVPR workload )
-
-> To Train
-
-```train
-python gtad_train_fs.py 
 ```
 
-> To Test
-
-```test
-sh test_fs.sh
-```
 
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.
