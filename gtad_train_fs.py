@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # print(c)
 
     model = GTAD(opt)
-    valid_mode = "Episodic" ## Standard or Episodic
+    valid_mode = "Standard" ## Standard or Episodic
     model = torch.nn.DataParallel(model, device_ids=list(range(opt['n_gpu']))).cuda()
     print('use {} gpus to train!'.format(opt['n_gpu']))
 
