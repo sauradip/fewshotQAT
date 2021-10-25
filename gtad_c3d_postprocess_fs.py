@@ -209,7 +209,7 @@ def load_json(file):
 def get_infer_dict(opt):
     df = pd.read_csv(opt["video_info"])
     json_data = load_json(opt["video_anno"])
-    cls_data = load_json("/home/phd/Desktop/sauradip_research/TAL/A2CL-PT/output/result_a2clpt_lbl_4418.json")
+#     cls_data = load_json("/home/phd/Desktop/sauradip_research/TAL/A2CL-PT/output/result_a2clpt_lbl_4418.json")
     database = json_data
     video_dict = {}
     for i in range(len(df)):
