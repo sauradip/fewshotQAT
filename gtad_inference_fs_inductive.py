@@ -206,6 +206,7 @@ if __name__ == '__main__':
 
                     loss_meter = AverageMeter()
                     iter_num = 0
+                    cnt=0
                     cls_intersection = defaultdict(int)  # Default value is 0
                     cls_union = defaultdict(int)
                     IoU = defaultdict(int)
@@ -213,6 +214,7 @@ if __name__ == '__main__':
                     # batch_size_val
                     # shot
                     for e in tqdm(range(nb_episodes)):
+                        cnt+=1
                         features_s = torch.zeros(batch_size_val, shot, c, h, w).to(device)
                         features_s_grad = torch.zeros(batch_size_val, shot, c, h, w).to(device)
                         features_q = torch.zeros(batch_size_val, 1, c, h, w).to(device)
@@ -304,7 +306,7 @@ if __name__ == '__main__':
                         # runtime += t1 - t0
                         ### after trained W , pass it to train transformer using CE loss and 
                         if meta_learn:
-                            model_trans = classifier.TransformerRePRI(features_s,features_q,gt_q,gt_s,mode="train") ## added
+                            model_trans = classifier.TransformerRePRI(features_s,features_q,gt_q,gt_s,cnt,mode="train") ## added
                             # print(model_trans)
                             # print("Transformer in epoch "+ str(run)+" trained \n")
                             state = {'epoch': n_runs + 1,'state_dict': model_trans.state_dict()}
