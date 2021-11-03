@@ -11,7 +11,7 @@ This is an official implementation in PyTorch of FS-QAT. Our paper is available 
 
 ## Updates
 - (October, 2021) C3D Features can be downloaded from [ActivityNet](http://activity-net.org/challenges/2016/download.html) website.
-- (October, 2021) We released FS-QAT training and inference code for ActivityNet dataset.
+- (October, 2021) We released FS-QAT training and inference code (Reproducable) for ActivityNet dataset.
 - (October, 2021) FS-QAT is accepted in BMVC2021.
 
 ## Abstract
