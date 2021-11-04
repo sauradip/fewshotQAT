@@ -5,7 +5,7 @@
 
 **Accepted as Poster in BMVC 2021**
 
-This is an official implementation in PyTorch of FS-QAT. Our paper is available at [Arxiv](https://arxiv.org/abs/2110.10552)
+This is an official implementation in PyTorch of FS-QAT. Our paper is available at [Arxiv](https://arxiv.org/abs/2110.10552). Slides for the online presentation are now available at [Slides](https://github.com/sauradip/fewshotQAT/blob/main/BMVC21.pdf)
 
 ![](img/fig1.png)
 
