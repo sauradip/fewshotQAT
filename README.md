@@ -44,8 +44,8 @@ python gtad_train_fs.py
 > To Train on support split and Test on query split run this
 
 ```test
-python gtad_inference_fs_inductive.py --meta_learn True
-python gtad_inference_fs_inductive.py --meta_learn False
+python gtad_inference_fs_inductive.py --meta_learn True --shot 5 --multi_instance False
+python gtad_inference_fs_inductive.py --meta_learn False --shot 5 --multi_instance False
 python gtad_c3d_postprocess_fs.py
 ```
 
