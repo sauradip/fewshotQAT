@@ -31,9 +31,9 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 
 ## Training and Evaluation
 
-Appologize for the messed up Code ( Thanks to [Frost](https://github.com/frostinassiky) for debugging on the way ) 
+Appologize for the messed up Code  
 
-Refactoring will be done soon ( delay due to CVPR workload )
+Refactoring will be done soon ( delay due to CVPR workload ) ( Thanks to [Frost](https://github.com/frostinassiky) for debugging on the way )
 
 > To Train GTAD with base class split run this ( only needed once per dataset )
 
