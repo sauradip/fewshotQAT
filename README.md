@@ -29,6 +29,32 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 
 ![](img/fig2.png)
 
+
+## Dependencies
+* Python == 3.7
+* Pytorch==1.1.0 or 1.3.0
+* CUDA==10.0.130
+* CUDNN==7.5.1_0
+* GCC >= 4.9
+
+## Installation
+Based on the idea of ROI Alignment from Mask-RCNN, we devoloped **SGAlign layer** in our implementation. You have to compile a short cuda code to run Algorithm 1 in our [paper](https://arxiv.org/abs/1911.11462).
+
+1. Create conda environment
+    ```shell script
+    conda env create -f env.yml
+    source activate gtad
+    ```
+2. Install `Align1D2.2.0`
+    ```shell script
+    cd gtad_lib
+    python setup.py install
+    ```
+3. Test `Align1D2.2.0`
+    ```shell script
+    python align.py
+    ```
+
 ## Training and Evaluation
 
 Appologize for the messed up Code  
