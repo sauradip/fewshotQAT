@@ -38,7 +38,7 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 * GCC >= 4.9
 
 ## Installation
-Based on the idea of ROI Alignment from Mask-RCNN, GTAD's author developed **SGAlign layer** in our implementation. You have to compile a short cuda code to run Algorithm 1 in [GTAD](https://arxiv.org/abs/1911.11462).
+Based on the idea of ROI Alignment from Mask-RCNN, GTAD's author developed **SGAlign layer** in their implementation. You have to compile a short cuda code to run Algorithm 1 in [GTAD](https://arxiv.org/abs/1911.11462).
 
 1. Create conda environment
     ```shell script
