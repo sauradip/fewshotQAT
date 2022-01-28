@@ -54,6 +54,8 @@ Based on the idea of ROI Alignment from Mask-RCNN, GTAD's author developed **SGA
     ```shell script
     python align.py
     ```
+4. Post-processing : Download the CUHK classifier from this [link](https://drive.google.com/file/d/1--d6V5xeVWznO0cPI_47f5wWGL8RO6P0/view?usp=sharing) and place it in "data" folder
+   
 
 ## Training and Evaluation
 
