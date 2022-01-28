@@ -36,6 +36,7 @@ Existing temporal action localization (TAL) works rely on a large number of trai
 * CUDA==10.0.130
 * CUDNN==7.5.1_0
 * GCC >= 4.9
+* pip install git+https://github.com/luizgh/visdom_logger.git
 
 ## Installation
 Based on the idea of ROI Alignment from Mask-RCNN, GTAD's author developed **SGAlign layer** in their implementation. You have to compile a short cuda code to run Algorithm 1 in [GTAD](https://arxiv.org/abs/1911.11462).
