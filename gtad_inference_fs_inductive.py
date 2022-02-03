@@ -19,10 +19,10 @@ if __name__ == '__main__':
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     opt = opts.parse_opt()
     opt = vars(opt)
-    if not os.path.exists(opt['output'] + "/results1"):
-        os.makedirs(opt['output'] + "/results1")
+    if not os.path.exists(opt['output'] + "/results2"):
+        os.makedirs(opt['output'] + "/results2")
 
-    data_path = opt["output"]+"/results1/"
+    data_path = opt["output"]+"/results2/"
     for fls in os.listdir(data_path):
         os.remove(os.path.join(data_path,fls))
 
